@@ -6,7 +6,7 @@ export const ItemCategory = () => {
   return (
     <>
       <div className="item-category">
-        <h2>Image Category</h2>
+        <h1>Image Category</h1>
         <div className="items-cat">
           <div className="item-cat-card">
             <div className="items-cat-type">
