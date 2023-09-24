@@ -8,6 +8,7 @@ export const Navbar = (props) => {
         <h2>Name is :{props.name}</h2>
         <h3>Brnach is : {props.branch}</h3>
 
+
       </div>
     </>
 
