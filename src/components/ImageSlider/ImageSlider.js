@@ -1,8 +1,6 @@
 import React from 'react'
 import './ImageSlider.css';
 
-import fooding from "./Images/foodimg.png";
-
 
 
 export const ImageSlider = () => {
