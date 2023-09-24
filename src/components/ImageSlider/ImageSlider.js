@@ -17,6 +17,7 @@ export const ImageSlider = () => {
 
             <img src={fooding} alt="" />
 
+
           </div>
         </div>
       </div>
