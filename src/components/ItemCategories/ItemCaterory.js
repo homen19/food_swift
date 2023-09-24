@@ -39,18 +39,7 @@ export const ItemCategory = () => {
             </div>
             <p>Biriyani</p>
           </div>
-          <div className="item-cat-card">
-            <div className="items-cat-type">
-              <img src={biriyaniType} alt="" /> 
-            </div>
-            <p>Biriyani</p>
-          </div>
-          <div className="item-cat-card">
-            <div className="items-cat-type">
-              <img src={biriyaniType} alt="" /> 
-            </div>
-            <p>Biriyani</p>
-          </div>
+          
           <div className="item-cat-card">
             <div className="items-cat-type">
               <img src={biriyaniType} alt="" /> 
