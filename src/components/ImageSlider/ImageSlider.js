@@ -1,6 +1,6 @@
 import React from 'react'
 import './ImageSlider.css';
-import foodimg from './Images/foodimg.png';
+import fooding from "./Images/foodimg.png";
 export const ImageSlider = () => {
   return (
     <>
@@ -12,7 +12,7 @@ export const ImageSlider = () => {
             <h2>Delicious meal</h2>
           </div>
           <div className='image'>
-            <img src= {foodimg}></img>
+            <img src={fooding} alt="" />
           </div>
         </div>
       </div>
