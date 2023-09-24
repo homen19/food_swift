@@ -1,14 +1,15 @@
 import React from 'react'
 import { Navbar } from '../../components/Navbar/Navbar'
 import { ImageSlider } from '../../components/ImageSlider/ImageSlider'
-import { ImageCategory } from '../../components/ItemCategories/ImageCategory'
+import { ItemCategory } from '../../components/ItemCategories/ItemCaterory'
+
 
 export const Home = () => {
   return (
     <>
         <Navbar />
         <ImageSlider />
-        <ImageCategory />
+        <ItemCategory />
     </>
   )
 }
