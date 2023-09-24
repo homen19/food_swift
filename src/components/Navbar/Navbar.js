@@ -1,14 +1,11 @@
 import React from 'react'
 import './Navbar.css';
 
-export const Navbar = (props) => {
+export const Navbar = () => {
   return (
     <>
       <div className='nav'>
-        <h2>Name is :{props.name}</h2>
-        <h3>Brnach is : {props.branch}</h3>
-
-
+      <h2>Food Swift</h2>
       </div>
     </>
 

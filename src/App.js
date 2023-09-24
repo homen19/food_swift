@@ -1,11 +1,10 @@
-import { Navbar } from "./components/Navbar/Navbar";
+
+import { Routers } from "./routers/Routers";
 
 function App() {
   return (
     <div>
-
-        <Navbar name="Sweta Kumari Mishra" branch="IT" />
-        
+        <Routers />
     </div>
   );
 }
