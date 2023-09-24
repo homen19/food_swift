@@ -1,7 +1,10 @@
 import React from 'react'
 import './ImageSlider.css';
+import fooding from "./Images/foodimg.png";
+
 
 import fooding from "./Images/foodimg.png";
+
 
 export const ImageSlider = () => {
   return (
@@ -15,7 +18,15 @@ export const ImageSlider = () => {
           </div>
           <div className='image'>
 
+<<<<<<< HEAD
             <img src={fooding} alt="Food icon" />
+=======
+
+            <img src={fooding} alt="" />
+
+
+            <img src={fooding} alt="" />
+>>>>>>> 27e20f1700fc4101c9c69b6fe50815ea9b0a1f4b
 
           </div>
         </div>
