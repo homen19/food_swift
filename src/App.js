@@ -3,7 +3,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 function App() {
   return (
     <div>
-        <Navbar />
+        <Navbar name="Sweta Kumari Mishra" branch="IT" />
         
     </div>
   );

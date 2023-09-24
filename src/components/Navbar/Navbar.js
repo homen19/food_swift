@@ -1,11 +1,12 @@
 import React from 'react'
 import './Navbar.css';
 
-export const Navbar = () => {
+export const Navbar = (props) => {
   return (
     <>
       <div className='nav'>
-        <h2>This is the Navbar compoent</h2>
+        <h2>Name is :{props.name}</h2>
+        <h3>Brnach is : {props.branch}</h3>
 
       </div>
     </>
