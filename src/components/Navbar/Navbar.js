@@ -5,8 +5,7 @@ export const Navbar = () => {
   return (
     <>
       <div className='nav'>
-        <h2>This is the Navbar compoent</h2>
-
+      <h2>Food Swift</h2>
       </div>
     </>
 

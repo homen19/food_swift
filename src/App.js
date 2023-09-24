@@ -1,10 +1,15 @@
-import { Navbar } from "./components/Navbar/Navbar";
+
+import { Routers } from "./routers/Routers";
 
 function App() {
   return (
     <div>
-        <Navbar />
-        <h1>channel to my welcome</h1>
+
+   
+        
+
+        <Routers />
+
     </div>
   );
 }
