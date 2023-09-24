@@ -20,23 +20,30 @@
     height: 200px;
     padding-top: 50px;
     padding-left: 80px;
+    /* border: 1px solid; */
 }
 .text h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.text h2{
-    font-family: sans-serif;
+.text h1{
+    font-size: 50px;
+    font-weight: 700;
 }
 .image{
     width: 50%;
     height: 200px;
+    /* border: 1px solid ; */
+    display: block;
+    text-align: center;
 }
 .image img{
     width: 65%;
     height: 200px;
     padding-left: 33px;
+    
 }
 .s1{
     color: #FF6B00;
+    font-weight: 700;
 }
 
