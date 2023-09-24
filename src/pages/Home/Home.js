@@ -12,10 +12,14 @@ export const Home = () => {
     <>
         <Navbar />
         <ImageSlider />
+<<<<<<< HEAD
 
         <ItemCategory />
 
         <ItemCategory />
+=======
+        <ItemCategory /
+>>>>>>> 1c633f09bab7fd3d7903ba17f6be39ac54fc260d
         <AvailableItems />
         <Footer />
     </>
