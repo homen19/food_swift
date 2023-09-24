@@ -5,7 +5,15 @@ export const Navbar = () => {
   return (
     <>
       <div className='nav'>
-      <h2>Food Swift</h2>
+        <div className="logo">
+          <h3>Logo</h3>
+        </div>
+        <h2>Food Swift</h2>
+
+        <div className="location">
+          <p>Resturent Near Me</p>
+        </div>
+
       </div>
     </>
 
