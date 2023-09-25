@@ -1,5 +1,9 @@
 import React from 'react'
 import './ImageSlider.css';
+
+import fooding from "./Images/foodimg.png";
+
+
 import fooding from './Images/foodimg.png';
 
 
@@ -14,12 +18,7 @@ export const ImageSlider = () => {
             <h1>Delicious meal</h1>
           </div>
           <div className='image'>
-
-
-
-            <img src={fooding} alt="" />
-
-
+          <img src={fooding} alt="" />
           </div>
         </div>
       </div>
