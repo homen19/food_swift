@@ -4,9 +4,6 @@ import './ImageSlider.css';
 import fooding from "./Images/foodimg.png";
 
 
-import fooding from './Images/foodimg.png';
-
-
 export const ImageSlider = () => {
   return (
     <>
