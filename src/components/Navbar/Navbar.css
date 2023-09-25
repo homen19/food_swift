@@ -6,7 +6,7 @@
     background-color: #CEDEBD;
     color: #fff;
     padding: 10px;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
     padding: 10px 150px;
     display: flex;
 }
@@ -78,6 +78,10 @@
     /* border: 1px solid red; */
     border-radius: 50%;
     padding: 7px;
+    cursor: pointer;
+}
+.cart:hover{
+    background-color: #ff5900;
 }
 .cart img{
     width: 100%;
@@ -96,6 +100,7 @@
     border-radius: 50%;
     margin-top: 5px;
     padding: 7px;
+    cursor: pointer;
     background-color: #B4CAB9;
 
 }
