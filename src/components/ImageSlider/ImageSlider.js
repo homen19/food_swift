@@ -3,10 +3,6 @@ import './ImageSlider.css';
 
 import fooding from "./Images/foodimg.png";
 
-
-
-
-
 export const ImageSlider = () => {
   return (
     <>
@@ -20,14 +16,8 @@ export const ImageSlider = () => {
           <div className='image'>
 
 
-
-
-
             <img src={fooding} alt="" />
 
-
-
-         
 
 
           </div>
