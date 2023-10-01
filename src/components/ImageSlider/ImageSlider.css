@@ -2,7 +2,7 @@
 
 .image-slider{
     width: 100%;
-    height: 220px;
+    height: 300px;
 
     /* border: 1px solid green; */
     background-color: #CEDEBD;
@@ -22,6 +22,7 @@
     height: 200px;
     padding-top: 50px;
     padding-left: 80px;
+    margin-top: 20px;
     /* border: 1px solid; */
 }
 .text h3{
@@ -34,7 +35,8 @@
 .image{
     width: 50%;
     height: 200px;
-    /* border: 1px solid ; */
+    /* border: 1px solid; */
+    margin-top: 50px;
     display: block;
     text-align: center;
 }
