@@ -41,18 +41,24 @@ export const ItemCategories = [
     },
     {
         id : 6,
+        name : "Momos",
+        imgUrl : momos
+
+    },
+    {
+        id : 7,
         name : "Patty",
         imgUrl : patty
 
     },
     {
-        id : 7,
+        id : 8,
         name : "Pizza",
         imgUrl : pizza
 
     },
     {
-        id : 8,
+        id : 9,
         name : "Pure Veg",
         imgUrl : pure_veg
 
