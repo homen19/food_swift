@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css';
 import cart from "../../assets/Images/cart1.png";
 import profile from "../../assets/Images/prfiles.png";
+import Profile from '../Profile/Profile';
 
 export const Navbar = () => {
+
+  const [dropdown, setDropDown] = React.useState(Profile);
+
   return (
     <>
       <div className='nav'>
@@ -26,7 +30,7 @@ export const Navbar = () => {
             <p className='cart-count'>2</p>
         </div>
 
-        <div className="profile">
+        <div className="profile" onClick={()=> setDropDown(dropdown) }>
           <img src={profile} alt="profile" />
         </div>
 
