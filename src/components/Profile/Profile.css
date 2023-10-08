@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .dropdown-menu{
     border: 2px solid red;
 }
@@ -16,3 +17,35 @@
 .dropdownItem li{
     list-style: none;
 }
+=======
+.dropdown-menu {
+    width: 15%;
+    height: 400px;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-box-shadow: -1px -4px 13px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -4px 13px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -4px 13px -3px rgba(0, 0, 0, 0.75);
+}
+
+.dropdown-menu ul{
+    display: block;
+}
+.dropdown-menu ul li{
+    list-style: none;
+    color: black;
+    font-weight: 600;
+    opacity: 0.9;
+    font-size: 13pt;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.dropdown-menu ul li .icon{
+    color: #FF6B00;
+    padding-right: 5px;
+}
+>>>>>>> bad148d3a743e0320042744cd92f40bc334b827c

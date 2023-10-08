@@ -10,6 +10,7 @@ import Profile from '../../components/Profile/Profile';
 
 
 
+
 export const Home = () => {
   return (
     <>
@@ -18,7 +19,11 @@ export const Home = () => {
         <ItemCategory />
         <AvailableItems />
         <Footer />
+<<<<<<< HEAD
         <Profile />
+=======
+        {/* <Profile /> */}
+>>>>>>> bad148d3a743e0320042744cd92f40bc334b827c
     </>
   )
 }

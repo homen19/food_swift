@@ -12,13 +12,18 @@ export const ItemCategories = [
     {
         id : 1,
         name : "Biriyani",
-        imgUrl : biriyani
-
+        imgUrl : biriyani,
+        price: 200,
+        rating:5,
+        offer:50
     },
     {
         id : 2,
         name : "Burger",
-        imgUrl : burger
+        imgUrl : burger,
+        price: 300,
+        rating:3,
+        offer:26
 
     },
     {
@@ -41,18 +46,24 @@ export const ItemCategories = [
     },
     {
         id : 6,
+        name : "Momos",
+        imgUrl : momos
+
+    },
+    {
+        id : 7,
         name : "Patty",
         imgUrl : patty
 
     },
     {
-        id : 7,
+        id : 8,
         name : "Pizza",
         imgUrl : pizza
 
     },
     {
-        id : 8,
+        id : 9,
         name : "Pure Veg",
         imgUrl : pure_veg
 
