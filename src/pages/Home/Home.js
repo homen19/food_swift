@@ -5,7 +5,7 @@ import { ItemCategory } from '../../components/ItemCategories/ItemCaterory'
 
 import { Footer } from '../../components/Footer/Footer'
 import { AvailableItems } from '../../components/AvailableItems/AvailableItems'
-import Profile from '../../components/Profile/Profile';
+
 
 
 
@@ -18,7 +18,7 @@ export const Home = () => {
         <ItemCategory />
         <AvailableItems />
         <Footer />
-        <Profile />
+        {/* <Profile /> */}
     </>
   )
 }
