@@ -7,10 +7,6 @@ import { Footer } from '../../components/Footer/Footer'
 import { AvailableItems } from '../../components/AvailableItems/AvailableItems'
 
 
-
-
-
-
 export const Home = () => {
   return (
     <>
