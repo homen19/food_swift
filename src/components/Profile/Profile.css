@@ -1,3 +1,5 @@
+
+
 .dropdown-menu {
     width: 15%;
     height: 400px;
@@ -17,12 +19,7 @@
 }
 .dropdown-menu ul li{
     list-style: none;
-    color: black;
-    font-weight: 600;
-    opacity: 0.9;
-    font-size: 13pt;
-    padding-bottom: 10px;
-    padding-top: 15px;
+    font-size: 14pt;
 }
 .dropdown-menu ul li .icon{
     color: #FF6B00;

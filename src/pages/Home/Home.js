@@ -8,8 +8,6 @@ import { AvailableItems } from '../../components/AvailableItems/AvailableItems'
 
 
 
-
-
 export const Home = () => {
   return (
     <>
@@ -18,7 +16,6 @@ export const Home = () => {
         <ItemCategory />
         <AvailableItems />
         <Footer />
-        {/* <Profile /> */}
     </>
   )
 }

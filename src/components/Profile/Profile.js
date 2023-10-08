@@ -1,5 +1,6 @@
 import React from 'react'
 import './Profile.css';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
@@ -7,6 +8,7 @@ import { faMessage } from "@fortawesome/free-solid-svg-icons";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
+
 
 const Profile = (props) => {
   return (
@@ -19,6 +21,7 @@ const Profile = (props) => {
               <li><FontAwesomeIcon icon={faGear} className='icon'/>Settings</li><hr />
               <li><FontAwesomeIcon icon={faCircleInfo} className='icon'/>Helps</li><hr />
               <li><FontAwesomeIcon icon={faRightFromBracket} className='icon'/>Logout</li>
+
         </ul>
       </div>
     </>
