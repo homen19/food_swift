@@ -21,14 +21,6 @@ export const ImageSlider = () => {
 
             <img src={fooding} alt="" />
 
-
-<<<<<<<<< Temporary merge branch 1
-
-         
-=========
-            
->>>>>>>>> Temporary merge branch 2
-
           </div>
         </div>
       </div>
