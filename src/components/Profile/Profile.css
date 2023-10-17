@@ -2,7 +2,7 @@
 
 .dropdown-menu {
     width: 15%;
-    height: 400px;
+    /* height: 400px; */
     position: absolute;
     top: 60px;
     right: 70px;
@@ -18,10 +18,19 @@
     display: block;
 }
 .dropdown-menu ul li{
+    border-radius: 5px;
     list-style: none;
     font-size: 14pt;
+    color: black;
+    padding: 20px 5px;
+    cursor: pointer;
+    color: #FF6B00;
+}
+.dropdown-menu ul li:hover{
+    background-color: #FF6B00;
+    color: #ffffff;
 }
 .dropdown-menu ul li .icon{
-    color: #FF6B00;
+    
     padding-right: 5px;
 }

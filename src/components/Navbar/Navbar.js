@@ -11,6 +11,10 @@ export const Navbar = () => {
 
   const ProfileOffHandler = () => {
     if (!open) {
+      setTimeout(()=>{
+          setViewProfile(false);
+          setOpen(false);
+      }, 5000);
       setViewProfile(true);
       setOpen(true);
     }

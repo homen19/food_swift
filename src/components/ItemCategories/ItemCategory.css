@@ -1,20 +1,10 @@
 .item-category{
-<<<<<<< HEAD
     width: 90%;
-=======
-    width: 80%;
->>>>>>> 4fb9c843454258bb2f5131905a3cb1ca493a4790
     height: 200px;
     /* border: 1px solid red; */
     margin: auto;
     margin-top: 20px;
 }
-<<<<<<< HEAD
-.items-cat{
-    width: 100%;
-    height: 160px;
-    /* border: 1px solid blue; */
-=======
 .item-category h1{
     text-align: center;
 }
@@ -22,7 +12,6 @@
     width: 100%;
     height: 160px;
     /* border: 1px solid blue;   */
->>>>>>> 4fb9c843454258bb2f5131905a3cb1ca493a4790
     margin-top: 10px;
     display: flex;
     justify-content: space-between;

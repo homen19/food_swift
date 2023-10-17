@@ -2,21 +2,21 @@ import React from "react";
 import "./AvailableItems.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookmark } from "@fortawesome/free-solid-svg-icons";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+// import { faBookmark } from "@fortawesome/free-solid-svg-icons";
+// import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { ItemCategories } from "../../utility/Data";
 
 export const AvailableItems = () => {
   console.log(ItemCategories);
 
-  const ShoopingCart = () => {
-    return <FontAwesomeIcon icon={faCartShopping} />;
-  };
+  // const ShoopingCart = () => {
+  //   return <FontAwesomeIcon icon={faCartShopping} />;
+  // };
 
-  const Bookmark = () => {
-    return <FontAwesomeIcon icon={faBookmark} />;
-  };
+  // const Bookmark = () => {
+  //   return <FontAwesomeIcon icon={faBookmark} />;
+  // };
 
   const Star = () => {
     return <FontAwesomeIcon icon={faStar} />;
