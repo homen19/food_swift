@@ -9,7 +9,7 @@ export const Home = () => {
     <>
         <Navbar />
         <ImageSlider />
-        <ItemCategory />
+        <ImageCategory />
     </>
   )
 }

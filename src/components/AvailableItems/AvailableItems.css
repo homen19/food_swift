@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #CEDEBD;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    position: relative;
+}
+
+.container h1{
+    position: absolute;
+    top: 10px;
+    text-decoration: underline;
+}
+
+.AvailableItems{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 50px;
+    justify-content: center;
+   
+}
+
+.itemList{
+    /* border: 1px solid red; */
+}
+
+.product-card{
+    max-width: 355px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 20px 30px 30px 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    transition: 0.2s;
+    background-color: #ffffff85;
+}
+
+.product-card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0.5rem 0.75rem 1.5rem #bbbb;
+}
+
+.product-card .main-image{
+    position: relative;
+    height: 210px;
+}
+
+.product-card .main-image img {
+    position: relative;
+    height: 210px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}   
+
+.product-card .food-details{
+    text-align: center;
+}
+
+.product-card .food-details .item-name{
+    font-size: 24px;
+    font-weight: 500;
+    color: #161616;
+
+}
+
+.product-card .food-details .stars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+   
+}
+
+.product-card .food-details .stars .itemRating{
+    margin: 0 -1px;
+    color: #333;
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 25px;
+    
+}
+
+.product-card .food-details .stars .offer{
+    font-size: 15px;
+    font-weight: 600;
+    color: #383838;
+}
+
+
+.product-card .food-details .price{
+    margin-top: 10px;
+    text-align: start;
+    
+}
+
+.product-card .food-details .price .discount{
+    font-size: 25px;
+    font-weight: 600;
+    color: #383838;
+}
+
+
+.product-card .food-details .price .oriinalPrice{
+    font-size: 20px;
+    font-weight: 600;
+    color: #707070;
+    margin-left: 10px;
+    text-decoration-line: line-through;
+    
+}
+
+.product-card .button{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+
+   
+}
+
+.product-card .button button{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: red;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
